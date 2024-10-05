@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.planet {
+  cursor: pointer;
+  transition: transform .3s;
+}
+
+.planet:hover {
+  transform: scale(1.5);
+}
+
+.planet:not(:hover) {
+  transform: scale(.7);
+}
+
+#navbar {
+  z-index: 100;
+  background-color: #0f234080;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 10px #0000004d;
+}
+
+.navbar-container {
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  max-width: 1200px;
+  display: flex;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+}
+
+.logo-img {
+  width: auto;
+  height: 90px;
+}
+
+#planet-description {
+  color: #fff;
+  white-space: pre-line;
+  backdrop-filter: blur(8px);
+  background: linear-gradient(135deg, #396cb44d, #cc3a724d);
+  border: 1px solid #ffffff4d;
+  border-radius: 15px;
+  width: 350px;
+  padding: 20px;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  transition: transform .3s, background .3s;
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  box-shadow: 0 4px 15px #000000b3;
+}
+
+#planet-description.show {
+  display: block;
+  transform: scale(1.05);
+}
+/*# sourceMappingURL=index.c92073ef.css.map */
