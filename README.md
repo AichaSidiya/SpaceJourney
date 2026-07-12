@@ -1,6 +1,6 @@
 # solarsystem
 
-<img src="https://github.com/AichaSidiya/SpaceJourney/blob/main/demospace.gif"/>
+<img src="https://github.com/AichaSidiya/SpaceJourney/blob/main/SpaceDemo.gif"/>
 
 "How To Make An Object Rotate Around Another Object In Three.js - Create A Solar System" YouTube tutorial project files https://youtu.be/XXzqSAt3UIw
 
